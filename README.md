@@ -12,9 +12,8 @@ intro-practice-0817/
 ├── README.md
 └── members/
     ├── _template.md
-    ├── sample-dani.md
-    ├── 01-dani.md
-    ├── 02-minji.md
+    ├── dani.md
+    ├── minji.md
     └── ...
 ```
 
@@ -26,12 +25,12 @@ intro-practice-0817/
 `members/` 폴더 안에 본인 파일을 생성합니다.
 
 ### 2. 파일명 규칙
-`{본인번호}-{본인닉네임}.md`
+`{본인닉네임}.md`
 
 예시:
-- `01-dani.md`
-- `14-minji.md`
-- `23-seohyun.md`
+- `dani.md`
+- `minji.md`
+- `seohyun.md`
 
 ### 3. 내용 작성
 `members/_template.md`를 복사해서 본인 내용으로 채우세요.
@@ -43,16 +42,16 @@ intro-practice-0817/
 
 ## 🔀 PR 진행 순서
 
-1. **본인 브랜치 생성:** `feat/{본인번호}-{본인닉네임}-intro`
-   예: `feat/14-minji-intro`
+1. **본인 브랜치 생성:** `feat/{본인닉네임}-intro`
+   예: `feat/minji-intro`
 
-2. `members/{본인번호}-{본인닉네임}.md` 파일 작성
+2. `members/{본인닉네임}.md` 파일 작성
 
 3. **커밋 + 푸시**
-   커밋 메시지: `[자기소개] {본인번호}-{본인닉네임} 추가`
+   커밋 메시지: `[자기소개] {본인닉네임} 추가`
 
 4. **Pull Request 생성**
-   PR 제목: `[자기소개] {본인번호}-{본인닉네임} 추가`
+   PR 제목: `[자기소개] {본인닉네임} 추가`
 
 5. **본인이 본인 PR을 직접 머지** ⭐
 
